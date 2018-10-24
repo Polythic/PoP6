@@ -1,7 +1,6 @@
 let rec float2cfrac (x: float) : int list =
   let qi = floor (System.Math.Round(x,5))
   let ri = x-qi
-  //printfn "ri: %A" ri
   let decimalri = decimal ri
   if System.Math.Round(ri,7)=0.0 then
     [int qi]

@@ -6,4 +6,4 @@ let rec frac2cfrac (t:int) (n:int) : int list =
     let ri = t % n
     qi :: (frac2cfrac n ri)
 
-printfn "%A" (frac2cfrac 649 200)
+printfn "%A" (frac2cfrac 649 182)

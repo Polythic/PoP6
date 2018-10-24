@@ -1,5 +1,6 @@
 let rec cfrac2float (lst:int list) : float =
   match lst with
+    | [] -> 0.0
     | [int] -> float lst.Head
     | _ -> float lst.Head + 1.0 / (cfrac2float(lst.Tail))
 

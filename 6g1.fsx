@@ -8,9 +8,6 @@ let rec float2cfrac (x: float) : int list =
     [int qi]
   else
     int qi :: float2cfrac(System.Math.Round(1.0/ri,15))
-   (* match roundedri with
-    | 0.0 -> []
-    | _ -> int qi :: float2cfrac(System.Math.Round(1.0/ri,9)) *)
 
 printfn "%A" ((float2cfrac 3.263) = [3;3;1;4;17;3])
 printfn "%A" ((float2cfrac 2.521) = [2;1;1;11;2;2;8])

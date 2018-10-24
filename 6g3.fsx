@@ -13,4 +13,7 @@ let rec cfrac2frac (lst: int list) (i: int) : int * int =
     let ni = qi * snd(cfrac2frac lst (i-1)) + snd(cfrac2frac lst (i-2))
     (ti,ni)
 
+printfn "%A" (cfrac2frac [3;4;12;4] 0)
+printfn "%A" (cfrac2frac [3;4;12;4] 1)
+printfn "%A" (cfrac2frac [3;4;12;4] 2)
 printfn "%A" (cfrac2frac [3;4;12;4] 3)

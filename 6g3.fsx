@@ -1,3 +1,8 @@
+///<summary> Denne rekursive funktion tager udgangspunkt i en kædebrøk og et indeks. </summary>
+///<param name="lst"> Er en liste af heltal. </param>
+///<param name="i"> Dette parameter er af typen heltal, som viser hvilket "skridt" vi er på i vores udregning. </param>
+///<returns> Funktionen returnerer derefter ti/ni approximationen som en tupel (ti, ni)</returns>
+
 let rec cfrac2frac (lst: int list) (i: int) : int * int =
   let qi = lst.[i]
   if i = 0 then

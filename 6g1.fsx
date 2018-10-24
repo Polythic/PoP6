@@ -1,4 +1,3 @@
-open Microsoft.FSharp.Math
 let rec float2cfrac (x: float) : int list =
   let qi = floor (System.Math.Round(x,5))
   let ri = x-qi

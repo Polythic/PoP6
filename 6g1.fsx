@@ -1,3 +1,7 @@
+///<summary> Denne rekursive funktion tager udgangspunkt i et reelt tal. </summary>
+///<param name="x"> Parameteret x er af typen float, der bliver brugt i omregningen til en liste af heltal. </param>
+///<returns> Funktionen returnerer det reelle tals repræsentation i kædebrøken. </returns>
+
 let rec float2cfrac (x: float) : int list =
   let qi = floor (System.Math.Round(x,5))
   let ri = x-qi

@@ -1,3 +1,7 @@
+///<summary> Den rekursive funktionen tager udgangspunkt i en liste af heltal. </summary>
+///<param name="lst"> Dette parameter er en liste af integers. </param>
+///<returns> Udfra listen af heltal returnerer funktionen det reelle tal. </returns>
+
 let rec cfrac2float (lst:int list) : float =
   match lst with
     | [] -> 0.0

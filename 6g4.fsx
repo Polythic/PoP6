@@ -24,3 +24,13 @@ printfn " Branch: 3a - %A" (cfrac2float [1;2;3] = 10.0/7.0)
 printfn "White-box testing of 6g1.fsx"
 printfn " Unit: float2cfrac"
 printfn " Branch: 1a - %b" (float2cfrac 0.0 = [0])
+
+
+printfn "White -box testing of 6g2.fsx"
+printfn " Unit: frac2cfrac"
+
+printfn "White -box testing of 6g3.fsx"
+printfn " Unit: cfrac2frac"
+
+
+

@@ -1,5 +1,6 @@
 ///<summary> Denne rekursive funktion tager udgangspunkt i et reelt tal. </summary>
 ///<param name="x"> Parameteret x er af typen float, der bliver brugt i omregningen til en liste af heltal. </param>
+/// <remarks>Vi har valgt at afrunde grundet regneusikkerheden med typen float</remarks>
 ///<returns> Funktionen returnerer det reelle tals repræsentation i kædebrøken. </returns>
 
 let rec float2cfrac (x: float) : int list =

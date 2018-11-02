@@ -14,3 +14,8 @@ let test2 = [6;3;1;1]
 printfn "%A" (cfrac2float test0)
 printfn "%A" (cfrac2float test1)
 printfn "%A" (cfrac2float test2)
+
+printfn "%b" ((cfrac2float test0)=10.0/7.0)
+printfn "%b" ((cfrac2float test1)=29.0/3.0)
+printfn "%b" ((cfrac2float test2)=44.0/7.0)
+//Da F# ikke skriver det præcise antal decimaler den forventer ved sammenligning, skriver vi den som brøk til sammenligningen.

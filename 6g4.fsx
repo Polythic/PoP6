@@ -18,7 +18,7 @@ printfn " Unit: cfrac2float"
 printfn " Branch: 1a - %b" (cfrac2float [] = 0.0)
 printfn " Branch: 2a - %b" (cfrac2float [1] = 1.0)
 printfn " Branch: 2b - %b" (cfrac2float [20] = 20.0)
-printfn " Branch: 3a - %A" (cfrac2float [1;2;3] = 10.0/7.0)
+printfn " Branch: 3a - %b" (cfrac2float [1;2;3] = 10.0/7.0)
 // Et kald til funktionen giver ikke nok signifikante decimaler, til at forventet output kan skrives
 
 printfn "White-box testing of 6g1.fsx"
@@ -31,6 +31,3 @@ printfn " Unit: frac2cfrac"
 
 printfn "White -box testing of 6g3.fsx"
 printfn " Unit: cfrac2frac"
-
-
-

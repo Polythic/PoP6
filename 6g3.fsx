@@ -21,4 +21,4 @@ let rec cfrac2frac (lst: int list) (i: int) : int * int =
 printfn "%A" (cfrac2frac [3;4;12;4] 0)
 printfn "%A" (cfrac2frac [3;4;12;4] 1)
 printfn "%A" (cfrac2frac [3;4;12;4] 2)
-printfn "%A" (cfrac2frac [3;4;12;4] 3)
+printfn "%A" (cfrac2frac [3;4;-12;-4] 3)
